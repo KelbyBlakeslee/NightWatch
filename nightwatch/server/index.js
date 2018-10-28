@@ -20,6 +20,11 @@ const app = express();
 app.use(bodyParser.json());
 
 
+massive(CONNECTION_STRING).then((db) => {
+    console.log('db connected')
+    app.set('db', db)
+});
+
 
 
 app.listen(SERVER_PORT, () => {
