@@ -14,7 +14,10 @@ class Nav extends Component {
     render() {
         return (
             <div>
-
+                <h1>NightWatch</h1>
+                <div>
+                    <button>Log Out</button>
+                </div>
             </div>
         )
     }
