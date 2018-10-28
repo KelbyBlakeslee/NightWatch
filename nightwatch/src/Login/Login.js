@@ -14,7 +14,13 @@ class Login extends Component {
     render() {
         return (
             <div>
-            <h1>Please Login</h1>
+                <h1>Please Login</h1>
+                <h3>Company Login</h3>
+                <input />
+                <h3>Company Passcode</h3>
+                <input />
+                <button>Create Account</button>
+                <button>Login</button>
             </div>
         )
     }

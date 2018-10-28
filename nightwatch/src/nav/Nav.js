@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './Nav.css';
 
 
 class Nav extends Component {
@@ -13,7 +13,7 @@ class Nav extends Component {
 
     render() {
         return (
-            <div>
+            <div className="nav-div">
                 <h1>NightWatch</h1>
                 <div>
                     <button>Log Out</button>
